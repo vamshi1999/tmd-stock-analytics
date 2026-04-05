@@ -1,0 +1,14 @@
+cd D:\Vamshi-Dev\DE\tmd-stock-analytics
+
+
+git init
+
+cat <<EOF > .gitignore
+.idea/
+.vscode/
+venv/
+.venv/
+target/
+*.class
+.DS_Store
+EOF
